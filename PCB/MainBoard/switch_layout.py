@@ -98,7 +98,7 @@ name_to_xy['Pi_Zero'] = (x, y)
 
 pico = name_to_footprint['Pico']
 pico.Rotate(pico.GetPosition(), pcbnew.EDA_ANGLE(90, pcbnew.DEGREES_T))
-y = name_to_xy['Pi_Zero'][1] - 12
+y = name_to_xy['Pi_Zero'][1] - 8
 x = X_OFFSET + 26  # Length of pico is 52. Height is 22.
 pico.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
 name_to_xy['Pico'] = (x, y)
@@ -107,7 +107,7 @@ name_to_xy['Pico'] = (x, y)
 
 x, y = name_to_xy['Pico']
 screen = name_to_footprint['JMD0.96C']
-screen.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x + 42, y + 1)))
+screen.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x + 42, y - 3)))
 
 # Place the diodes
 
@@ -133,7 +133,7 @@ for ref, idx in all_diodes:
 horizontal_gap = 1
 vertical_gap = 1
 pico_x, pico_y = name_to_xy['Pico']
-start_x, start_y = pico_x + 55 + 9.72 / 2, pico_y - 11
+start_x, start_y = pico_x + 55 + 9.72 / 2, pico_y - 15
 
 for i, row in enumerate(all_diode_rows):
     for j, diode in enumerate(row):
@@ -222,5 +222,17 @@ extra_key.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(space_x + 5 + KEY_MM + 3,
 joystick = name_to_footprint['JoyStick_Or_I2C1']
 joystick.Flip(joystick.GetPosition(), True)
 joystick.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(space_x - 5 - KEY_MM + 3, bottom_y - 8.6 / 2 - 2.475)))
+
+# Add mounting holes
+MOUNTING_HOLE_PATH = os.path.join(os.getenv('KICAD7_FOOTPRINT_DIR'), 'MountingHole.pretty')
+space_y = name_to_xy['SW_space'][1]
+
+centers = [(space_x - 9 - KEY_MM, space_y - 4), (space_x + 9 + KEY_MM, space_y - 4)]
+
+for center in centers:
+    hole = pcbnew.FootprintLoad(MOUNTING_HOLE_PATH, 'MountingHole_3.2mm_M3')
+    hole.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(*center)))
+    hole.Reference().SetVisible(False)
+    pcb.Add(hole)
 
 pcbnew.Refresh()
