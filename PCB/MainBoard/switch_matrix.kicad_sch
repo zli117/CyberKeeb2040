@@ -1327,7 +1327,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 181.61 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06366160-1b7e-4c92-af43-8eb02ef551dd)
-    (property "Reference" "SW23" (at 181.61 73.66 0)
+    (property "Reference" "SW24" (at 181.61 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_u" (at 181.61 76.2 0)
@@ -1344,7 +1344,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW23") (unit 1)
+          (reference "SW24") (unit 1)
         )
       )
     )
@@ -1353,7 +1353,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 212.09 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08072c06-3ca4-4152-917a-c4b4aad9a172)
-    (property "Reference" "SW11" (at 212.09 55.88 0)
+    (property "Reference" "SW12" (at 212.09 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_9" (at 212.09 58.42 0)
@@ -1370,7 +1370,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW11") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 90.17 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0dadc686-81e3-4350-ad7b-92f9f0710c62)
-    (property "Reference" "SW58" (at 90.17 127 0)
+    (property "Reference" "SW59" (at 90.17 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_super" (at 90.17 129.54 0)
@@ -1422,7 +1422,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW58") (unit 1)
+          (reference "SW59") (unit 1)
         )
       )
     )
@@ -1431,7 +1431,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 105.41 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb93280-d5fe-4363-b4be-6e410f03aa91)
-    (property "Reference" "SW32" (at 105.41 91.44 0)
+    (property "Reference" "SW33" (at 105.41 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_s" (at 105.41 93.98 0)
@@ -1448,7 +1448,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW32") (unit 1)
+          (reference "SW33") (unit 1)
         )
       )
     )
@@ -1457,7 +1457,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 227.33 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10889ba4-4543-4360-91d6-dc7d95e4e950)
-    (property "Reference" "SW65" (at 227.33 127 0)
+    (property "Reference" "SW66" (at 227.33 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_up" (at 227.33 129.54 0)
@@ -1474,7 +1474,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW65") (unit 1)
+          (reference "SW66") (unit 1)
         )
       )
     )
@@ -1483,7 +1483,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 166.37 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1141bf44-aa36-4ef3-abb0-187764a69803)
-    (property "Reference" "SW8" (at 166.37 55.88 0)
+    (property "Reference" "SW9" (at 166.37 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_6" (at 166.37 58.42 0)
@@ -1500,7 +1500,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW8") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -1691,7 +1691,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.81 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21a42214-1bf0-4224-964b-50d2cdef749d)
-    (property "Reference" "SW14" (at 257.81 55.88 0)
+    (property "Reference" "SW15" (at 257.81 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_+" (at 257.81 58.42 0)
@@ -1708,7 +1708,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW14") (unit 1)
+          (reference "SW15") (unit 1)
         )
       )
     )
@@ -1769,7 +1769,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 135.89 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27fa72d0-710b-494f-b0a1-a76b0e9fdbf0)
-    (property "Reference" "SW6" (at 135.89 55.88 0)
+    (property "Reference" "SW7" (at 135.89 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_4" (at 135.89 58.42 0)
@@ -1786,7 +1786,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW6") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -1795,7 +1795,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2969647e-d1e8-422c-9258-722c0290ef5e)
-    (property "Reference" "SW2" (at 74.93 55.88 0)
+    (property "Reference" "SW3" (at 74.93 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_`" (at 74.93 58.42 0)
@@ -1812,7 +1812,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW2") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -1977,7 +1977,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.81 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33daf691-bcec-43ec-a778-0efd6c241e73)
-    (property "Reference" "SW67" (at 257.81 127 0)
+    (property "Reference" "SW68" (at 257.81 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_enter" (at 257.81 129.54 0)
@@ -1994,7 +1994,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW67") (unit 1)
+          (reference "SW68") (unit 1)
         )
       )
     )
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 196.85 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38ab1039-9ada-4e6b-adcf-4c47aa1192cc)
-    (property "Reference" "SW50" (at 196.85 109.22 0)
+    (property "Reference" "SW51" (at 196.85 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_," (at 196.85 111.76 0)
@@ -2072,7 +2072,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW50") (unit 1)
+          (reference "SW51") (unit 1)
         )
       )
     )
@@ -2107,7 +2107,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 242.57 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ca8c7fb-316f-4a94-8fcd-84cc752976fa)
-    (property "Reference" "SW53" (at 242.57 109.22 0)
+    (property "Reference" "SW54" (at 242.57 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_r_shift" (at 242.57 111.76 0)
@@ -2124,7 +2124,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW53") (unit 1)
+          (reference "SW54") (unit 1)
         )
       )
     )
@@ -2133,7 +2133,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 196.85 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e9fcf34-2e40-4689-b87c-54511fefb24c)
-    (property "Reference" "SW63" (at 196.85 127 0)
+    (property "Reference" "SW64" (at 196.85 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_left" (at 196.85 129.54 0)
@@ -2150,7 +2150,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW63") (unit 1)
+          (reference "SW64") (unit 1)
         )
       )
     )
@@ -2367,7 +2367,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 105.41 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5458a57f-fdc1-4483-819f-02e332f0ecd9)
-    (property "Reference" "SW18" (at 105.41 73.66 0)
+    (property "Reference" "SW19" (at 105.41 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_w" (at 105.41 76.2 0)
@@ -2384,7 +2384,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW18") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
@@ -2471,7 +2471,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 105.41 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c3d8a27-90af-4e1e-a81e-2f1e1d270537)
-    (property "Reference" "SW45" (at 105.41 109.22 0)
+    (property "Reference" "SW46" (at 105.41 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_x" (at 105.41 111.76 0)
@@ -2488,7 +2488,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW45") (unit 1)
+          (reference "SW46") (unit 1)
         )
       )
     )
@@ -2497,7 +2497,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 135.89 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cab2e12-995b-4db5-b0fb-69cedcacc03d)
-    (property "Reference" "SW33" (at 135.89 91.44 0)
+    (property "Reference" "SW34" (at 135.89 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_f" (at 135.89 93.98 0)
@@ -2514,7 +2514,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW33") (unit 1)
+          (reference "SW34") (unit 1)
         )
       )
     )
@@ -2523,7 +2523,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.81 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e65215c-fdda-4b3e-abae-febfec9ef815)
-    (property "Reference" "SW41" (at 257.81 91.44 0)
+    (property "Reference" "SW42" (at 257.81 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_]" (at 257.81 93.98 0)
@@ -2540,7 +2540,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW41") (unit 1)
+          (reference "SW42") (unit 1)
         )
       )
     )
@@ -2549,7 +2549,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60d66d30-f90c-4175-96ee-94ecc92c30b1)
-    (property "Reference" "SW30" (at 74.93 91.44 0)
+    (property "Reference" "SW31" (at 74.93 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_caps" (at 74.93 93.98 0)
@@ -2566,7 +2566,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW30") (unit 1)
+          (reference "SW31") (unit 1)
         )
       )
     )
@@ -2653,7 +2653,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 212.09 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c936b7d-9e05-4191-87e9-af61f19d2c34)
-    (property "Reference" "SW25" (at 212.09 73.66 0)
+    (property "Reference" "SW26" (at 212.09 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_o" (at 212.09 76.2 0)
@@ -2670,7 +2670,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW25") (unit 1)
+          (reference "SW26") (unit 1)
         )
       )
     )
@@ -2705,7 +2705,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 59.69 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e8d254a-29e2-433c-a4bb-10fc10c90f8e)
-    (property "Reference" "SW29" (at 59.69 91.44 0)
+    (property "Reference" "SW30" (at 59.69 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_del" (at 59.69 93.98 0)
@@ -2722,7 +2722,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW29") (unit 1)
+          (reference "SW30") (unit 1)
         )
       )
     )
@@ -2731,7 +2731,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 105.41 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f88c33f-e059-481d-8617-d9c9b9990717)
-    (property "Reference" "SW4" (at 105.41 55.88 0)
+    (property "Reference" "SW5" (at 105.41 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_2" (at 105.41 58.42 0)
@@ -2748,7 +2748,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW4") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -2757,7 +2757,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 196.85 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72d70b5e-e08d-44f2-bb0a-6a7378d0b30a)
-    (property "Reference" "SW24" (at 196.85 73.66 0)
+    (property "Reference" "SW25" (at 196.85 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_i" (at 196.85 76.2 0)
@@ -2774,7 +2774,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW24") (unit 1)
+          (reference "SW25") (unit 1)
         )
       )
     )
@@ -2783,7 +2783,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 90.17 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7427faf6-34c2-4832-b356-0cb300c54911)
-    (property "Reference" "SW44" (at 90.17 109.22 0)
+    (property "Reference" "SW45" (at 90.17 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_z" (at 90.17 111.76 0)
@@ -2800,7 +2800,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW44") (unit 1)
+          (reference "SW45") (unit 1)
         )
       )
     )
@@ -2809,7 +2809,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 181.61 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76372b8e-8496-4c93-868a-5cd38f8ac61d)
-    (property "Reference" "SW62" (at 181.61 127 0)
+    (property "Reference" "SW63" (at 181.61 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_fn2" (at 181.61 129.54 0)
@@ -2826,7 +2826,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW62") (unit 1)
+          (reference "SW63") (unit 1)
         )
       )
     )
@@ -2835,7 +2835,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 135.89 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77f3c7c6-8ed1-436a-a83c-d234885d2692)
-    (property "Reference" "SW46" (at 135.89 109.22 0)
+    (property "Reference" "SW47" (at 135.89 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_v" (at 135.89 111.76 0)
@@ -2852,7 +2852,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW46") (unit 1)
+          (reference "SW47") (unit 1)
         )
       )
     )
@@ -2861,7 +2861,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7db84059-0809-4384-b7d4-52e71e4f9e31)
-    (property "Reference" "SW43" (at 74.93 109.22 0)
+    (property "Reference" "SW44" (at 74.93 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_shift" (at 74.93 111.76 0)
@@ -2878,7 +2878,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW43") (unit 1)
+          (reference "SW44") (unit 1)
         )
       )
     )
@@ -2991,7 +2991,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 166.37 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88ad55e2-f125-4573-b1f5-52b9dd02e759)
-    (property "Reference" "SW22" (at 166.37 73.66 0)
+    (property "Reference" "SW23" (at 166.37 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_y" (at 166.37 76.2 0)
@@ -3008,7 +3008,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW22") (unit 1)
+          (reference "SW23") (unit 1)
         )
       )
     )
@@ -3017,7 +3017,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 151.13 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 893a66c5-61ef-4286-8d59-ef052388c608)
-    (property "Reference" "SW21" (at 151.13 73.66 0)
+    (property "Reference" "SW22" (at 151.13 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_t" (at 151.13 76.2 0)
@@ -3034,7 +3034,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW21") (unit 1)
+          (reference "SW22") (unit 1)
         )
       )
     )
@@ -3069,7 +3069,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 166.37 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b560748-a0ed-4752-997e-d588e71280c5)
-    (property "Reference" "SW61" (at 166.37 127 0)
+    (property "Reference" "SW62" (at 166.37 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_space" (at 166.37 129.54 0)
@@ -3086,7 +3086,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW61") (unit 1)
+          (reference "SW62") (unit 1)
         )
       )
     )
@@ -3095,7 +3095,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 59.69 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bce7f83-aa81-431e-adf7-862cdb185361)
-    (property "Reference" "SW15" (at 59.69 73.66 0)
+    (property "Reference" "SW16" (at 59.69 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_esc" (at 59.69 76.2 0)
@@ -3112,7 +3112,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW15") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -3147,7 +3147,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 196.85 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f55a9d0-8f8d-439f-8876-8b5130017ab3)
-    (property "Reference" "SW37" (at 196.85 91.44 0)
+    (property "Reference" "SW38" (at 196.85 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_k" (at 196.85 93.98 0)
@@ -3164,7 +3164,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW37") (unit 1)
+          (reference "SW38") (unit 1)
         )
       )
     )
@@ -3173,7 +3173,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fdff6cf-e68d-403a-931a-e2ed4f15dc2f)
-    (property "Reference" "SW16" (at 74.93 73.66 0)
+    (property "Reference" "SW17" (at 74.93 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_tab" (at 74.93 76.2 0)
@@ -3190,7 +3190,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW16") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -3199,7 +3199,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 135.89 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9545d4f3-850c-4440-ad7c-d07dc0128bf2)
-    (property "Reference" "SW20" (at 135.89 73.66 0)
+    (property "Reference" "SW21" (at 135.89 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_r" (at 135.89 76.2 0)
@@ -3216,7 +3216,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW20") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
     )
@@ -3225,7 +3225,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 212.09 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95d27e30-1362-48fd-818e-1a58170e1ccf)
-    (property "Reference" "SW51" (at 212.09 109.22 0)
+    (property "Reference" "SW52" (at 212.09 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_." (at 212.09 111.76 0)
@@ -3242,7 +3242,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW51") (unit 1)
+          (reference "SW52") (unit 1)
         )
       )
     )
@@ -3251,7 +3251,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 212.09 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95e3c50e-5774-4901-900f-beeed1180985)
-    (property "Reference" "SW64" (at 212.09 127 0)
+    (property "Reference" "SW65" (at 212.09 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_down" (at 212.09 129.54 0)
@@ -3268,7 +3268,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW64") (unit 1)
+          (reference "SW65") (unit 1)
         )
       )
     )
@@ -3303,7 +3303,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 105.41 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99eda859-3de4-4fc5-a22f-49884b5c0663)
-    (property "Reference" "SW59" (at 105.41 127 0)
+    (property "Reference" "SW60" (at 105.41 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_alt" (at 105.41 129.54 0)
@@ -3320,7 +3320,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW59") (unit 1)
+          (reference "SW60") (unit 1)
         )
       )
     )
@@ -3355,7 +3355,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 166.37 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d252529-fec8-499d-8d35-ce00bdaacafc)
-    (property "Reference" "SW48" (at 166.37 109.22 0)
+    (property "Reference" "SW49" (at 166.37 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_n" (at 166.37 111.76 0)
@@ -3372,7 +3372,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW48") (unit 1)
+          (reference "SW49") (unit 1)
         )
       )
     )
@@ -3381,7 +3381,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dbcf266-8697-4f2d-bf42-fbf744f6642d)
-    (property "Reference" "SW57" (at 74.93 127 0)
+    (property "Reference" "SW58" (at 74.93 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_ctrl" (at 74.93 129.54 0)
@@ -3398,7 +3398,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW57") (unit 1)
+          (reference "SW58") (unit 1)
         )
       )
     )
@@ -3407,7 +3407,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 227.33 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a272eae8-4f80-4093-8245-30c4dc2f0dfd)
-    (property "Reference" "SW26" (at 227.33 73.66 0)
+    (property "Reference" "SW27" (at 227.33 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_p" (at 227.33 76.2 0)
@@ -3424,7 +3424,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW26") (unit 1)
+          (reference "SW27") (unit 1)
         )
       )
     )
@@ -3459,7 +3459,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 59.69 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a32f2533-40ef-41b2-84eb-34fda6dad253)
-    (property "Reference" "SW56" (at 59.69 127 0)
+    (property "Reference" "SW57" (at 59.69 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_fn1" (at 59.69 129.54 0)
@@ -3476,7 +3476,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW56") (unit 1)
+          (reference "SW57") (unit 1)
         )
       )
     )
@@ -3511,7 +3511,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 242.57 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a524c2ff-3291-419f-bb50-7c5a12e426eb)
-    (property "Reference" "SW40" (at 242.57 91.44 0)
+    (property "Reference" "SW41" (at 242.57 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_'" (at 242.57 93.98 0)
@@ -3528,7 +3528,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW40") (unit 1)
+          (reference "SW41") (unit 1)
         )
       )
     )
@@ -3537,7 +3537,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 120.65 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5312cc9-46ac-4657-a4c5-64ade2549518)
-    (property "Reference" "SW5" (at 120.65 55.88 0)
+    (property "Reference" "SW6" (at 120.65 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_3" (at 120.65 58.42 0)
@@ -3554,7 +3554,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW5") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -3589,7 +3589,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 227.33 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9ec2b88-7d2b-43aa-b95d-dad5030b25ab)
-    (property "Reference" "SW52" (at 227.33 109.22 0)
+    (property "Reference" "SW53" (at 227.33 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_/" (at 227.33 111.76 0)
@@ -3606,7 +3606,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW52") (unit 1)
+          (reference "SW53") (unit 1)
         )
       )
     )
@@ -3615,7 +3615,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 90.17 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abdce230-f393-44a1-8454-5d654b2843e4)
-    (property "Reference" "SW17" (at 90.17 73.66 0)
+    (property "Reference" "SW18" (at 90.17 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_q" (at 90.17 76.2 0)
@@ -3632,7 +3632,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW17") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -3641,7 +3641,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 90.17 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af6d572f-a122-43e5-abf0-35f19658147e)
-    (property "Reference" "SW3" (at 90.17 55.88 0)
+    (property "Reference" "SW4" (at 90.17 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_1" (at 90.17 58.42 0)
@@ -3658,7 +3658,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW3") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -3771,7 +3771,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 196.85 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9b33653-09f9-49eb-8be6-d61522a508ec)
-    (property "Reference" "SW10" (at 196.85 55.88 0)
+    (property "Reference" "SW11" (at 196.85 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_8" (at 196.85 58.42 0)
@@ -3788,7 +3788,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW10") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
     )
@@ -3849,7 +3849,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 227.33 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bee60033-38f1-4cde-8722-374ed59cb68a)
-    (property "Reference" "SW12" (at 227.33 55.88 0)
+    (property "Reference" "SW13" (at 227.33 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_0" (at 227.33 58.42 0)
@@ -3866,7 +3866,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW12") (unit 1)
+          (reference "SW13") (unit 1)
         )
       )
     )
@@ -3875,7 +3875,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 166.37 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c170e210-92d6-4316-a2b4-327871a0f0b2)
-    (property "Reference" "SW35" (at 166.37 91.44 0)
+    (property "Reference" "SW36" (at 166.37 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_h" (at 166.37 93.98 0)
@@ -3892,7 +3892,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW35") (unit 1)
+          (reference "SW36") (unit 1)
         )
       )
     )
@@ -4083,7 +4083,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 227.33 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce207338-8762-4327-9051-f503b7b7dfcb)
-    (property "Reference" "SW39" (at 227.33 91.44 0)
+    (property "Reference" "SW40" (at 227.33 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_;" (at 227.33 93.98 0)
@@ -4100,7 +4100,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW39") (unit 1)
+          (reference "SW40") (unit 1)
         )
       )
     )
@@ -4135,7 +4135,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 120.65 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d073bba7-a89b-4dfc-95b8-dda715023c2c)
-    (property "Reference" "SW19" (at 120.65 73.66 0)
+    (property "Reference" "SW20" (at 120.65 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_e" (at 120.65 76.2 0)
@@ -4152,7 +4152,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW19") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
     )
@@ -4161,7 +4161,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 242.57 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1653f29-df60-47cc-bb8a-52e95e2c8c3a)
-    (property "Reference" "SW27" (at 242.57 73.66 0)
+    (property "Reference" "SW28" (at 242.57 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_[" (at 242.57 76.2 0)
@@ -4178,7 +4178,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW27") (unit 1)
+          (reference "SW28") (unit 1)
         )
       )
     )
@@ -4187,7 +4187,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.81 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d41c3382-c4cf-4e32-a54b-d56382f31061)
-    (property "Reference" "SW54" (at 257.81 109.22 0)
+    (property "Reference" "SW55" (at 257.81 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_\\" (at 257.81 111.76 0)
@@ -4204,7 +4204,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW54") (unit 1)
+          (reference "SW55") (unit 1)
         )
       )
     )
@@ -4213,7 +4213,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 242.57 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d714071a-8aa3-49ee-9794-ed48f5870715)
-    (property "Reference" "SW66" (at 242.57 127 0)
+    (property "Reference" "SW67" (at 242.57 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_right" (at 242.57 129.54 0)
@@ -4230,7 +4230,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW66") (unit 1)
+          (reference "SW67") (unit 1)
         )
       )
     )
@@ -4265,7 +4265,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 181.61 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d995be1f-88b7-4710-a4f9-a6c70e1bed81)
-    (property "Reference" "SW36" (at 181.61 91.44 0)
+    (property "Reference" "SW37" (at 181.61 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_j" (at 181.61 93.98 0)
@@ -4282,7 +4282,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW36") (unit 1)
+          (reference "SW37") (unit 1)
         )
       )
     )
@@ -4291,7 +4291,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 59.69 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da0db71c-6006-420e-88af-bf2fc4cfebeb)
-    (property "Reference" "SW42" (at 59.69 109.22 0)
+    (property "Reference" "SW43" (at 59.69 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_ins" (at 59.69 111.76 0)
@@ -4308,7 +4308,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW42") (unit 1)
+          (reference "SW43") (unit 1)
         )
       )
     )
@@ -4369,7 +4369,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 90.17 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dceac5d3-7f85-4627-81fb-9a614cfd7e5f)
-    (property "Reference" "SW31" (at 90.17 91.44 0)
+    (property "Reference" "SW32" (at 90.17 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_a" (at 90.17 93.98 0)
@@ -4386,7 +4386,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW31") (unit 1)
+          (reference "SW32") (unit 1)
         )
       )
     )
@@ -4395,7 +4395,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 151.13 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ded0ea41-23d6-49d7-ad76-2e21b2a34cfa)
-    (property "Reference" "SW60" (at 151.13 127 0)
+    (property "Reference" "SW61" (at 151.13 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_d" (at 151.13 129.54 0)
@@ -4412,7 +4412,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW60") (unit 1)
+          (reference "SW61") (unit 1)
         )
       )
     )
@@ -4421,7 +4421,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 181.61 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df674eea-2c1f-4806-8e03-fa29c98e706c)
-    (property "Reference" "SW49" (at 181.61 109.22 0)
+    (property "Reference" "SW50" (at 181.61 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_m" (at 181.61 111.76 0)
@@ -4438,7 +4438,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW49") (unit 1)
+          (reference "SW50") (unit 1)
         )
       )
     )
@@ -4499,7 +4499,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 151.13 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1e834bb-c512-41b2-8e73-e6b62c9d20af)
-    (property "Reference" "SW34" (at 151.13 91.44 0)
+    (property "Reference" "SW35" (at 151.13 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_g" (at 151.13 93.98 0)
@@ -4516,7 +4516,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW34") (unit 1)
+          (reference "SW35") (unit 1)
         )
       )
     )
@@ -4551,7 +4551,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 242.57 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2fbfb68-2502-4201-8729-9318b4333f5b)
-    (property "Reference" "SW13" (at 242.57 55.88 0)
+    (property "Reference" "SW14" (at 242.57 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_-" (at 242.57 58.42 0)
@@ -4568,7 +4568,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW13") (unit 1)
+          (reference "SW14") (unit 1)
         )
       )
     )
@@ -4785,7 +4785,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 181.61 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eba617b8-e217-4b0d-8a8e-2e7e77b01c04)
-    (property "Reference" "SW9" (at 181.61 55.88 0)
+    (property "Reference" "SW10" (at 181.61 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_7" (at 181.61 58.42 0)
@@ -4802,7 +4802,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW9") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -4811,7 +4811,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.81 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec14170b-5cf5-4988-b627-513b3c0ee59d)
-    (property "Reference" "SW28" (at 257.81 73.66 0)
+    (property "Reference" "SW29" (at 257.81 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_back" (at 257.81 76.2 0)
@@ -4828,7 +4828,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW28") (unit 1)
+          (reference "SW29") (unit 1)
         )
       )
     )
@@ -4967,7 +4967,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 212.09 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f99c417e-c5f0-4557-a394-1b8987b4ef3a)
-    (property "Reference" "SW38" (at 212.09 91.44 0)
+    (property "Reference" "SW39" (at 212.09 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_l" (at 212.09 93.98 0)
@@ -4984,7 +4984,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW38") (unit 1)
+          (reference "SW39") (unit 1)
         )
       )
     )
@@ -5045,7 +5045,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 151.13 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc8c7fcd-e1d4-49fb-ae38-0b1e815d0c37)
-    (property "Reference" "SW47" (at 151.13 109.22 0)
+    (property "Reference" "SW48" (at 151.13 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_b" (at 151.13 111.76 0)
@@ -5062,7 +5062,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW47") (unit 1)
+          (reference "SW48") (unit 1)
         )
       )
     )
@@ -5071,7 +5071,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 151.13 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd0a5dea-43bd-4651-ba08-f6dc4e249477)
-    (property "Reference" "SW7" (at 151.13 55.88 0)
+    (property "Reference" "SW8" (at 151.13 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_5" (at 151.13 58.42 0)
@@ -5088,7 +5088,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW7") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -5097,7 +5097,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 135.89 133.2992 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fea5d87a-2ef0-4d09-ba35-95ff7a24194e)
-    (property "Reference" "SW55" (at 135.89 126.9492 0)
+    (property "Reference" "SW56" (at 135.89 126.9492 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_c" (at 135.89 129.4892 0)
@@ -5114,7 +5114,7 @@
     (instances
       (project "MainBoard"
         (path "/bae0810c-de5c-4877-9e50-ea2ffd613142/93eb0ca5-32f0-4914-ab02-ab34a84786ac"
-          (reference "SW55") (unit 1)
+          (reference "SW56") (unit 1)
         )
       )
     )
