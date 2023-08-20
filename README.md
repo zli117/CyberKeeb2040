@@ -39,8 +39,62 @@ A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli
 Everything is in [PCB/MainBoard](PCB/MainBoard) dir. Designed with Kicad 7.0. Make sure `Perfect DOS VGA 437 Font` is intalled on Windows. [Gerber](PCB/MainBoard/Gerber) directory is generated with PCBWay's specs. You might need to regenerate according to your fab's specs.
 
 ## Case
-The case comprises three acrylic plates and various 3D printed rivets:
+The case comprises three acrylic plates and various 3D printed rivets. The original Fusion 360 archive is `Frame/MainBoard/CyberKeep 2040 V2 v34.f3d`. The spacer heights are parameterized.
 
+ * [Frame/MainBoard/TopBar.dxf](Frame/MainBoard/TopBar.dxf): 3mm acrlyic
+ * [Frame/MainBoard/Plate.dxf](Frame/MainBoard/Plate.dxf): 1.5mm acrlyic
+ * [Frame/MainBoard/Bottom.dxf](Frame/MainBoard/Bottom.dxf): 3mm acrlyic
+
+![Plates Image](Images/Acrylic-Plates.png)
+
+The case is held together with 3D printed rivets and spacers.
+
+### Step 1: Assemble the rivets and bottom spacers
+Place the rivets through the holes on the bottom place. Then fit the spacer rings.
+![Step 1](Images/Step1.png)
+
+### Step 2: Place the top spacers
+Place the PCB on top of the bottom spacers. Then place the top spacers as shown.
+![Step 2](Images/Step2.png)
+
+### Step 3: Secure the top plates with screws
+Place the top bar acrylic plate and the switch plate on top of the top spacers. Then secure the whole assembly with screws. Use M2.6x16mm screws for the top plate, and M2.6x10mm screws for the switch plate.
+![Step 3](Images/Step3.png)
+
+## Soldering
+
+### Pi Zero
+Soldering of Pi Zero is the trickiest. You need to solder the pins simultaneously to the keyboard PCB and the Pi Zero, via the castellated hole on the PCB. 
+
+![Zero_Bottom](Images/Zero_Bottom.jpg)
+
+This is viewed from the bottom, at the castellated hole. The green PCB is Pi Zero. Solder joint should form between the copper on the keyboard PCB, the plates on Pi Zero PCB and the pin. To make things easier, it's recommended to tape down the Pi Zero and headers:
+
+![Zero_Top](Images/Zero_Top.jpg)
+
+It's also recommended to solder all the pins for structural strength.
+
+### Diodes
+Align the dark side of the diode with the square pad.
+
+![Diodes](Images/Diodes.jpg)
+
+### JST Connector
+Install the JST connectors on the back of the PCB. You can either solder on the back side or on the front. If on the front, tape down the connectors first.
+
+![JST](Images/JST.jpg)
+
+### JMD0.96C OLED Display (Marked as J4 on the front of the PCB)
+
+If J3 is installed on the back of the PCB, place a tape on the back of the display to avoid shorting.
+
+# Photos
+
+![Photo1](Images/Photo1.jpg)
+![Photo5](Images/Photo5.jpg)
+![Photo2](Images/Photo2.jpg)
+![Photo3](Images/Photo3.jpg)
+![Photo4](Images/Photo4.jpg)
 
 # PCB Library Licenses
 
@@ -49,7 +103,6 @@ The case comprises three acrylic plates and various 3D printed rivets:
  * Key switch footprints and 3D models are from https://github.com/kiswitch/kiswitch
  * PJ320A symbol, footprint are from [Keebio-Parts.pretty](https://github.com/keebio/Keebio-Parts.pretty/blob/master/TRRS-PJ-320A.kicad_mod) under MIT License.
  * Other symbols are from KiCad library which is under CC-BY-SA 4.0 license. 
-
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
