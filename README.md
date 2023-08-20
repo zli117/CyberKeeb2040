@@ -88,6 +88,36 @@ Install the JST connectors on the back of the PCB. You can either solder on the 
 
 If J3 is installed on the back of the PCB, place a tape on the back of the display to avoid shorting.
 
+### Software
+
+Keyboard firmware: https://github.com/zli117/PicoMK/tree/main/configs/cyberkeeb_2040. Follow PicoMK's [instruction](https://github.com/zli117/PicoMK/tree/main#build-a-firmware) to build the firmware and upload it to Pico microcontroller.
+
+Linux driver for accepting key strokes from SPI: (You'll need an external screen and an external keyboard for this setup)
+ 1. Install kernel headers: `sudo apt install raspberrypi-kernel-headers` 
+ 2. Checkout PicoMK: `git clone https://github.com/zli117/PicoMK.git`
+ 3. Build the driver and device tree overlay:
+ ```bash
+ cd PicoMK/linux
+ make -j
+ make device_tree
+ ```
+ 4. Install the driver: 
+ ```bash
+ sudo -E make install
+ sudo depmod -a
+ ```
+ 5. Copy over the device tree overlay: `sudo cp spi1-picomk.dtbo /boot/overlays`
+ 6. Add this line to the `config.txt`. Make sure SPI1 is not enabled. 
+ ```
+ dtoverlay=spi1-picomk
+ ``` 
+ 7. Add this line to the `/etc/modules` file:
+ ```
+ spi_picomk
+ ```
+
+ If you're using the 3.5 inch TFT screen, you can install the driver from https://github.com/juj/fbcp-ili9341.
+
 # Photos
 
 ![Photo1](Images/Photo1.jpg)
