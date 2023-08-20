@@ -3,6 +3,21 @@ A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli
 
 [![Watch the demo video](Images/Screenshot%202023-08-19%20CyberKeeb%202040.png)](https://youtu.be/GYs4eybdZCU)
 
+# Table of Contents
+
+ * [BOM](#bom)
+ * [Build Instructions](#build-instructions)
+   * [PCB](#pcb)
+   * [Case](#case)
+   * [Soldering](#soldering)
+     * [Pi Zero](#pi-zero)
+     * [Diodes](#diodes)
+     * [JST Connector](#jst-connector)
+     * [JMD0.96C OLED Display](#jmd096c-oled-display-marked-as-j4-on-the-front-of-the-pcb)
+   * [Software](#software)
+ * [Photos](#photos)
+ * [PCB Library Licenses](#pcb-library-licenses)
+
 # BOM
 | Component | Count |
 | ------------- | ------------- |
@@ -88,7 +103,7 @@ Install the JST connectors on the back of the PCB. You can either solder on the 
 
 If J3 is installed on the back of the PCB, place a tape on the back of the display to avoid shorting.
 
-### Software
+## Software
 
 Keyboard firmware: https://github.com/zli117/PicoMK/tree/main/configs/cyberkeeb_2040. Follow PicoMK's [instruction](https://github.com/zli117/PicoMK/tree/main#build-a-firmware) to build the firmware and upload it to Pico microcontroller.
 
