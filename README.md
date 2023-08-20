@@ -111,25 +111,25 @@ Linux driver for accepting key strokes from SPI: (You'll need an external screen
  1. Install kernel headers: `sudo apt install raspberrypi-kernel-headers` 
  2. Checkout PicoMK: `git clone https://github.com/zli117/PicoMK.git`
  3. Build the driver and device tree overlay:
- ```bash
- cd PicoMK/linux
- make -j
- make device_tree
- ```
+    ```bash
+    cd PicoMK/linux
+    make -j
+    make device_tree
+    ```
  4. Install the driver: 
- ```bash
- sudo -E make install
- sudo depmod -a
- ```
+    ```bash
+    sudo -E make install
+    sudo depmod -a
+    ```
  5. Copy over the device tree overlay: `sudo cp spi1-picomk.dtbo /boot/overlays`
  6. Add this line to the `config.txt`. Make sure SPI1 is not enabled. 
- ```
- dtoverlay=spi1-picomk
- ``` 
+    ```
+    dtoverlay=spi1-picomk
+    ``` 
  7. Add this line to the `/etc/modules` file:
- ```
- spi_picomk
- ```
+    ```
+    spi_picomk
+    ```
 
  If you're using the 3.5 inch TFT screen, you can install the driver from https://github.com/juj/fbcp-ili9341.
 
