@@ -1,4 +1,4 @@
-# CyberKeeb2040
+# CyberKeeb 2040
 A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli117/PicoMK) for communication between RP2040 and Pi Zero. Watch the demo on YouTube 👇.
 
 [![Watch the demo video](Images/Screenshot%202023-08-19%20CyberKeeb%202040.png)](https://youtu.be/GYs4eybdZCU)
