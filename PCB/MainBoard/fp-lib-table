@@ -6,4 +6,5 @@
   (lib (name "RotaryEncoder")(type "KiCad")(uri "${KIPRJMOD}/Library/RotaryEncoder")(options "")(descr ""))
   (lib (name "PiZero")(type "KiCad")(uri "${KIPRJMOD}/Library/PiZero")(options "")(descr ""))
   (lib (name "Diode_THT_Custom")(type "KiCad")(uri "${KIPRJMOD}/Library/Diode_THT_Custom")(options "")(descr ""))
+  (lib (name "HotswapFix")(type "KiCad")(uri "${KIPRJMOD}/Library/HotswapFix")(options "")(descr ""))
 )

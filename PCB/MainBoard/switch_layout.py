@@ -4,6 +4,8 @@ import re
 
 X_OFFSET = 0
 Y_OFFSET = 40
+X_KEY_CENTER_OFFSET = -0.5625
+Y_KEY_CENTER_OFFSET = -4.7750
 KEY_MM = 19.05
 LEFT_PAD = 2
 RIGHT_PAD = 2
@@ -67,19 +69,21 @@ for row in layout:
         f = name_to_footprint[key]
         width = special_sizes.get(key, 1.0) * KEY_MM
         x += (previous_width + width) / 2
-        f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
+        f.Flip(f.GetPosition(), True)
+        f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x + X_KEY_CENTER_OFFSET, y + Y_KEY_CENTER_OFFSET)))
         name_to_xy[key] = (x, y)
         previous_width = width
-        if key in stablizers:
-            stab_name = stablizers[key]
-            stab_f = pcbnew.FootprintLoad(os.path.join(os.getenv('KICAD7_3RD_PARTY'), STABLIZER_LIB_PATH),
-                                          stab_name)
-            stab_f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
-            stab_f.Reference().SetVisible(False)
-            pcb.Add(stab_f)
+        # if key in stablizers:
+        #     stab_name = stablizers[key]
+        #     stab_f = pcbnew.FootprintLoad(os.path.join(os.getenv('KICAD7_3RD_PARTY'), STABLIZER_LIB_PATH),
+        #                                   stab_name)
+        #     stab_f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
+        #     stab_f.Reference().SetVisible(False)
+        #     pcb.Add(stab_f)
     y += KEY_MM
 
 rotary_encoder = name_to_footprint['RotaryEncoder_Switch']
+rotary_encoder.Flip(rotary_encoder.GetPosition(), True)
 x = name_to_xy['SW_esc'][0] - 7.48
 y = name_to_xy['SW_back'][1] - 2.48
 rotary_encoder.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
