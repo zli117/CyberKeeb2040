@@ -212,16 +212,17 @@ pcb.Drawings().append(bottom_left)
 
 # Place the connectors
 
-# JST PH connector height 8.6 mm, width 10.9 mm. Shift (3, -2.475)
 space_x = name_to_xy['SW_space'][0]
 
 extra_key = name_to_footprint['Extra_Keys']
 extra_key.Flip(extra_key.GetPosition(), True)
-extra_key.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(space_x + 5 + KEY_MM + 3, bottom_y - 8.6 / 2 - 2.475)))
+extra_key.Rotate(extra_key.GetPosition(), pcbnew.EDA_ANGLE(270, pcbnew.DEGREES_T))
+extra_key.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(space_x + (20 + KEY_MM) + 5.08, bottom_y - 10.09)))
 
 joystick = name_to_footprint['JoyStick_Or_I2C1']
 joystick.Flip(joystick.GetPosition(), True)
-joystick.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(space_x - 5 - KEY_MM + 3, bottom_y - 8.6 / 2 - 2.475)))
+joystick.Rotate(joystick.GetPosition(), pcbnew.EDA_ANGLE(270, pcbnew.DEGREES_T))
+joystick.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(space_x - (20 + KEY_MM) + 5.08, bottom_y - 10.09)))
 
 # Add mounting holes
 MOUNTING_HOLE_PATH = os.path.join(os.getenv('KICAD7_FOOTPRINT_DIR'), 'MountingHole.pretty')
