@@ -73,13 +73,13 @@ for row in layout:
         f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x + X_KEY_CENTER_OFFSET, y + Y_KEY_CENTER_OFFSET)))
         name_to_xy[key] = (x, y)
         previous_width = width
-        # if key in stablizers:
-        #     stab_name = stablizers[key]
-        #     stab_f = pcbnew.FootprintLoad(os.path.join(os.getenv('KICAD7_3RD_PARTY'), STABLIZER_LIB_PATH),
-        #                                   stab_name)
-        #     stab_f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
-        #     stab_f.Reference().SetVisible(False)
-        #     pcb.Add(stab_f)
+        if key in stablizers:
+            stab_name = stablizers[key]
+            stab_f = pcbnew.FootprintLoad(os.path.join(os.getenv('KICAD7_3RD_PARTY'), STABLIZER_LIB_PATH),
+                                          stab_name)
+            stab_f.SetPosition(pcbnew.VECTOR2I(pcbnew.wxPointMM(x, y)))
+            stab_f.Reference().SetVisible(False)
+            pcb.Add(stab_f)
     y += KEY_MM
 
 rotary_encoder = name_to_footprint['RotaryEncoder_Switch']
