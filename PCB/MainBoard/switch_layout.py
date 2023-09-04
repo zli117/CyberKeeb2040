@@ -137,7 +137,7 @@ for ref, idx in all_diodes:
 horizontal_gap = 1
 vertical_gap = 1
 pico_x, pico_y = name_to_xy['Pico']
-start_x, start_y = pico_x + 55 + 9.72 / 2, pico_y - 15
+start_x, start_y = pico_x + 55 + 9.72 - 1.05, pico_y - 15
 
 for i, row in enumerate(all_diode_rows):
     for j, diode in enumerate(row):
