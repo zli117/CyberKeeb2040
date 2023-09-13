@@ -223,8 +223,8 @@
   (pad "36" thru_hole oval (at 1.87 19.05) (size 3 1.7) (drill oval 2.3 1) (layers "*.Cu" "*.Mask") (tstamp 46c5c01c-24dc-4ce8-b455-3f5faa062b1d))
   (pad "38" thru_hole oval (at 1.87 21.59) (size 3 1.7) (drill oval 2.3 1) (layers "*.Cu" "*.Mask") (tstamp b2c3b238-9fee-4b6f-aff5-d1f19e40fcd8))
   (pad "40" thru_hole oval (at 1.87 24.13) (size 3 1.7) (drill oval 2.3 1) (layers "*.Cu" "*.Mask") (tstamp dc09c464-9e82-4b3d-b295-6901b0525514))
-  (model "${KIPRJMOD}/Library/PiZero/ADA3708--3DModel-STEP-56544.STEP"
-    (offset (xyz -11.5 0 0))
+  (model "${KIPRJMOD}/Library/PiZero/Pi-Zero-Updated.step"
+    (offset (xyz -11.5 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )

@@ -130,9 +130,14 @@
   (pad "" np_thru_hole circle (at 4.5175 4.775) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp c8092ca9-5d7d-4600-bd46-a71595095bb6))
   (pad "1" smd roundrect (at 6.5225 2.235) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 97b63084-8571-4ec6-a782-4f04b84644d5))
   (pad "2" smd roundrect (at -6.4045 -0.305) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 41eae0bb-f96e-4dcc-8647-dab000472ea5))
-  (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
-    (offset (xyz 0 0 0))
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
+    (offset (xyz -0.5 -4.75 -2))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 -180 0))
+  )
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.stp"
+    (offset (xyz -0.5 -4.75 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
   )
 )
