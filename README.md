@@ -51,7 +51,7 @@ A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli
 # Build Instructions
 
 ## PCB
-Everything is in [PCB/MainBoard](PCB/MainBoard) dir. Designed with Kicad 7.0. Make sure `Perfect DOS VGA 437 Font` is intalled on Windows. [Gerber](PCB/MainBoard/Gerber) directory is generated with PCBWay's specs. You might need to regenerate according to your fab's specs.
+Everything is in [PCB/MainBoard](PCB/MainBoard) dir. Designed with Kicad 7.0. Make sure `Perfect DOS VGA 437 Font` is intalled on Windows, or if you use Arch, install the [ttf-perfectdos](https://aur.archlinux.org/packages/ttf-perfectdos) package.
 
 ## Case
 The case comprises three acrylic plates and various 3D printed rivets. The original Fusion 360 archive is `Frame/MainBoard/CyberKeep 2040 V2 v34.f3d`. The spacer heights are parameterized.
