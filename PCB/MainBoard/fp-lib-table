@@ -8,4 +8,5 @@
   (lib (name "Diode_THT_Custom")(type "KiCad")(uri "${KIPRJMOD}/Library/Diode_THT_Custom")(options "")(descr ""))
   (lib (name "HotswapFix")(type "KiCad")(uri "${KIPRJMOD}/Library/HotswapFix")(options "")(descr ""))
   (lib (name "CustomCapacitor")(type "KiCad")(uri "${KIPRJMOD}/Library/Capacitors")(options "")(descr ""))
+  (lib (name "CustomResitor")(type "KiCad")(uri "${KIPRJMOD}/Library/Resistors")(options "")(descr ""))
 )
