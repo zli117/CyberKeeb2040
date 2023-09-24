@@ -4183,7 +4183,7 @@
     (property "Reference" "SW56" (at 257.81 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_\\" (at 257.81 111.76 0)
+    (property "Value" "SW_bkslash" (at 257.81 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "HotswapFix:SW_Hotswap_Kailh_MX_1.50u" (at 257.81 115.57 0)
