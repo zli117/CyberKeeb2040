@@ -32,6 +32,9 @@ fp-info-cache
 # Plot
 Plot/
 
+# Gerber
+Gerber/
+
 # BOM
 BOM/
 
