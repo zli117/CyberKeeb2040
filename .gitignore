@@ -35,8 +35,5 @@ Plot/
 # BOM
 BOM/
 
-# Gerber
-Gerber/
-
 # Large 3d models
 MainBoard.step
