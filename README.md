@@ -5,18 +5,23 @@ A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli
 
 # Table of Contents
 
- * [BOM](#bom)
- * [Build Instructions](#build-instructions)
-   * [PCB](#pcb)
-   * [Case](#case)
-   * [Soldering](#soldering)
-     * [Pi Zero](#pi-zero)
-     * [Diodes](#diodes)
-     * [JST Connector](#jst-connector)
-     * [JMD0.96C OLED Display](#jmd096c-oled-display-marked-as-j4-on-the-front-of-the-pcb)
-   * [Software](#software)
- * [Photos](#photos)
- * [PCB Library Licenses](#pcb-library-licenses)
+- [CyberKeeb 2040](#cyberkeeb-2040)
+- [Table of Contents](#table-of-contents)
+- [BOM](#bom)
+- [Build Instructions](#build-instructions)
+  - [PCB](#pcb)
+  - [Case](#case)
+    - [Step 1: Assemble the rivets and bottom spacers](#step-1-assemble-the-rivets-and-bottom-spacers)
+    - [Step 2: Place the top spacers](#step-2-place-the-top-spacers)
+    - [Step 3: Secure the top plates with screws](#step-3-secure-the-top-plates-with-screws)
+  - [Soldering](#soldering)
+    - [Pi Zero](#pi-zero)
+    - [Diodes](#diodes)
+    - [JST Connector](#jst-connector)
+    - [JMD0.96C OLED Display (Marked as J4 on the front of the PCB)](#jmd096c-oled-display-marked-as-j4-on-the-front-of-the-pcb)
+  - [Software](#software)
+- [Photos](#photos)
+- [PCB Library Licenses](#pcb-library-licenses)
 
 # BOM
 | Component | Count |
@@ -51,7 +56,7 @@ A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli
 # Build Instructions
 
 ## PCB
-Everything is in [PCB/MainBoard](PCB/MainBoard) dir. Designed with Kicad 7.0. Make sure `Perfect DOS VGA 437 Font` is intalled on Windows, or if you use Arch, install the [ttf-perfectdos](https://aur.archlinux.org/packages/ttf-perfectdos) package.
+Everything is in [PCB/MainBoard](PCB/MainBoard) dir. Designed with Kicad 7.0. Make sure `Perfect DOS VGA 437 Font` is intalled on Windows, or if you use Arch, install the [ttf-perfectdos](https://aur.archlinux.org/packages/ttf-perfectdos) package. [PCB/MainBoard/Gerber](PCB/MainBoard/Gerber) dir contains the Gerber files for three fab houses: [JLCPCB](PCB/MainBoard/Gerber/JLCPCB/), [PCBWay](PCB/MainBoard/Gerber/PCBWay/), and [OSHPark](PCB/MainBoard/Gerber/OSHPark/). For JLCPCB and PCBWay, **make sure to select the Castellated Holes option** (this will increase the price, but it's better to be safe on the quality side).
 
 ## Case
 The case comprises three acrylic plates and various 3D printed rivets. The original Fusion 360 archive is `Frame/MainBoard/CyberKeep 2040 V2 v34.f3d`. The spacer heights are parameterized.
