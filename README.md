@@ -7,18 +7,30 @@ A mechnical keyboard and a cyberdeck. Powered by [PicoMK](https://github.com/zli
 
 - [CyberKeeb 2040](#cyberkeeb-2040)
 - [Table of Contents](#table-of-contents)
-- [Build Instructions](#build-instructions)
+- [Build](#build)
+  - [PCB](#pcb)
+  - [Frame](#frame)
 - [Photos](#photos)
   - [V2](#v2)
   - [V1](#v1)
 - [Q\&A](#qa)
 - [PCB Library Licenses](#pcb-library-licenses)
 
-# [Build Instructions](Docs/BuildInstructions_V2.md)
+# Build
 
-[V2 build instructions](Docs/BuildInstructions_V2.md)
+[**V2 build instructions**](Docs/BuildInstructions_V2.md)
 
 [V1 build instructions](Docs/BuildInstructions_V1.md)
+
+## PCB
+Everything is in [PCB/MainBoard](PCB/MainBoard) dir. Designed with Kicad 7.0. Make sure `Perfect DOS VGA 437 Font` is intalled on Windows, or if you use Arch, install the [ttf-perfectdos](https://aur.archlinux.org/packages/ttf-perfectdos) package. [PCB/MainBoard/Gerber](PCB/MainBoard/Gerber) dir contains the Gerber files for three fab houses: [JLCPCB](PCB/MainBoard/Gerber/JLCPCB/), [PCBWay](PCB/MainBoard/Gerber/PCBWay/), and [OSHPark](PCB/MainBoard/Gerber/OSHPark/). For JLCPCB and PCBWay, **make sure to select the Castellated Holes option** (this will increase the price, but it's better to be safe on the quality side).
+
+## Frame
+The frame has three acrylic plates and is held together with screws and standoffs.
+
+ * [Frame/MainBoard/TopBar.dxf](Frame/MainBoard/TopBar.dxf): 3mm acrlyic
+ * [Frame/MainBoard/Plate.dxf](Frame/MainBoard/Plate.dxf): 1.5mm acrlyic
+ * [Frame/MainBoard/Bottom.dxf](Frame/MainBoard/Bottom.dxf): 3mm acrlyic
 
 # Photos
 
