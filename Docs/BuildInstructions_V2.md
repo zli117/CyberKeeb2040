@@ -113,12 +113,29 @@ This [video](https://www.youtube.com/watch?v=_DsCdOaRUPM) is a nice demonstratei
 ### Step 1
 ![Step 1](V2_Imgs/Step1.jpg)
 
-Install the standoffs to the bottom panel. All the screws used here are M2.5x5mm. There are 7 M2.5x5 male-female standoffs for the top part of the panel, and 7 M2.5x5 female-female standoffs for the lower part.
+Install the standoffs to the bottom panel. All the screws used here are M2.5x5mm. There are 7 M2.5x5 male-female standoffs for the top part of the panel, and 7 M2.5x5 female-female standoffs for the lower part. There's 1 M2.5x10mm standoff at the very bottom.
 
 ### Step 2
 ![Step 2](V2_Imgs/Step2.jpg)
 
-Install the standoffs to the bottom panel. All the screws used here are M2.5x5mm. There are 7 M2.5x5 male-female standoffs for the top part of the panel, and 7 M2.5x5 female-female standoffs for the lower part.
+Align the PCB to the standoffs.
+
+### Step 3
+![Step 3](V2_Imgs/Step3.jpg)
+
+Screw down the PCB with 7 M2.5x4mm screws.
+
+### Step 4
+![Step 4](V2_Imgs/Step4.jpg)
+
+Install the top bar standoffs with 7 M2.5x6mm standoffs. For the ones not over the Pi Zero, add a 1.5mm washer.
+
+### Step 5
+![Step 5](V2_Imgs/Step5.jpg)
+
+Install the top bar and the plate. 
+
+Tip: Add the switches, at least the ones on the edge, to the plate before installing the plate.
 
 ## Build Software
 
