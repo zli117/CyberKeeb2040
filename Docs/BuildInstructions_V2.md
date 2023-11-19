@@ -110,6 +110,16 @@ This [video](https://www.youtube.com/watch?v=_DsCdOaRUPM) is a nice demonstratei
 
 ## Frame Assembly
 
+### Step 1
+![Step 1](V2_Imgs/Step1.jpg)
+
+Install the standoffs to the bottom panel. All the screws used here are M2.5x5mm. There are 7 M2.5x5 male-female standoffs for the top part of the panel, and 7 M2.5x5 female-female standoffs for the lower part.
+
+### Step 2
+![Step 2](V2_Imgs/Step2.jpg)
+
+Install the standoffs to the bottom panel. All the screws used here are M2.5x5mm. There are 7 M2.5x5 male-female standoffs for the top part of the panel, and 7 M2.5x5 female-female standoffs for the lower part.
+
 ## Build Software
 
 ### Pi Pico Firmware
