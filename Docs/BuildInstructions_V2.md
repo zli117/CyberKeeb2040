@@ -154,7 +154,7 @@ Check out the code:
 ```bash
 git clone https://github.com/zli117/PicoMK.git
 cd PicoMK
-git submodule update --init --recursive
+git submodule update --init && git -C pico-sdk submodule update --init
 ```
 
 The hardware configuration for this keyboard is defined in `configs/cyberkeeb_2040` dir in `PicoMK`. You can take a look at the [`layout.cc`](https://github.com/zli117/PicoMK/blob/main/configs/cyberkeeb_2040/layout.cc) for the details on the keymap.
