@@ -145,7 +145,7 @@ Install build dependencies:
 
 Arch Linux:
 ```bash
-pacman -S git cmake arm-none-eabi-gcc
+pacman -S git cmake arm-none-eabi-gcc arm-none-eabi-newlib
 ```
 
 For other distros or OS, see https://github.com/zli117/PicoMK#get-the-code
